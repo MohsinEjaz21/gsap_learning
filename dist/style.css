@@ -1,3 +1,6 @@
-*{
+* {
   background: rgb(0 100 0 / 0.1) !important;
+}
+h1 {
+  width: fit-content;
 }
