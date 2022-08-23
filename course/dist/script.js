@@ -31,5 +31,10 @@ gsap.defaults({ duration: 1 })
 */
 
 //  Exercise 1
+// from is pointing to start state
+// gsap.to(".fred", { x: 700, y: 400, scale: 3, rotation: 360, duration: 3 });
 
-gsap.to(".fred", { x: 700, y: 400, scale: 3, rotation: 360, duration: 3 });
+// to is pointing to end state
+gsap.fromTo(".fred",
+  { x: 0, y: 0, scale: 1, rotation: 250 },
+  { x: 700, y: 400, scale: 3, rotation: 360, duration: 3 });
