@@ -36,5 +36,7 @@ gsap.defaults({ duration: 1 })
 
 // to is pointing to end state
 gsap.fromTo(".fred",
-  { x: 0, y: 0, scale: 1, rotation: 250 },
-  { x: 700, y: 400, scale: 3, rotation: 360, duration: 3 });
+  { x: 0, y: 0, scale: 1, rotation: 250, opacity: 0 },
+  { x: 700, y: 400, scale: 3, rotation: 360, duration: 3, opacity: 1 });
+
+
